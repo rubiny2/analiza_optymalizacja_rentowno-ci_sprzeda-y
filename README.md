@@ -40,13 +40,19 @@ from data cleaning → SQL analysis → interactive dashboard → business recom
 ---
 
 ## 📁 Repository Structure
-
 📂 Superstore-Analysis:
-  📄 final_analytical_report.pdf # Full analytical report (cleaning log, SQL queries, insights, recommendations)
-  📈 visual_superstore_profit_action_plan.pptx # PowerPoint presentation summarizing key insights and action plans.
-  📊 superstore_profit_analysis_excel.csv # (optional) cleaned dataset
-  ⚙️ superstore_profit_analysis_sql_queries.sql # all SQL queries used for data exploration and insight generation
-  🖼️ superstore_profit_analysis_dashboard.pbix # Power BI project file with dashboards
+.
+├── 📄 README.md
+├── 📂 Data/
+│   ├──   📊 superstore_profit_analysis_excel.csv # (optional) cleaned dataset
+├── 📂 SQL/
+│   └──   ⚙️ superstore_profit_analysis_sql_queries.sql # all SQL queries used for data exploration and insight generation
+├── 📂 Report/
+│   └── 📄 final_analytical_report.pdf # Full analytical report (cleaning log, SQL queries, insights, recommendations)
+└── 📂 Visuals/
+    ├── 📈 visual_superstore_profit_action_plan.pptx # PowerPoint presentation summarizing key insights and action plans.
+    ├── 🖼️ superstore_profit_analysis_dashboard.pbix # Power BI project file with dashboards
+    └──   
 
 ---
 

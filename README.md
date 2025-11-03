@@ -1,32 +1,33 @@
-# 📊 Analiza Rentowności Sprzedaży i Optymalizacja Strategii Biznesowej  
-### **Superstore Database — End-to-End Data Analytics Case Study**
+# 📊 Sales Profitability Analysis & Business Strategy Optimization  
+### **Superstore Dataset — End-to-End Data Analytics Case Study**
 
 ---
 
-## 🧠 O Projekcie
+## 🧠 Project Overview
 
-Projekt przedstawia pełny proces analityczny skupiony na identyfikacji kluczowych czynników wpływających na **sprzedaż**, **marżę** i **rentowność** w globalnej firmie handlowej (dataset: *Superstore*).  
-Celem analizy było:
+This project demonstrates a full analytics workflow focused on identifying the key factors affecting **sales**, **profitability**, and **margin performance** in a global retail company (dataset: *Superstore*).
 
-✔️ eliminowanie strat wynikających z rabatowania  
-✔️ optymalizacja procesów logistycznych i regionalnych  
-✔️ wskazanie najbardziej wartościowych klientów i produktów  
-✔️ wsparcie zarządzania zapasami i strategii cenowej  
+Main business objectives:
 
-Projekt pokazuje **pełny cykl pracy analityka danych**:  
-od czyszczenia danych → przez SQL → aż po dashboard i rekomendacje biznesowe.
+✔️ eliminate margin losses caused by excessive discounting  
+✔️ optimize logistics and regional operations  
+✔️ identify the most profitable products and customer segments  
+✔️ support pricing, inventory, and marketing decisions  
+
+The project reflects the **complete role of a Data Analyst**:  
+from data cleaning → SQL analysis → interactive dashboard → business recommendations.
 
 ---
 
-## 🔍 Kluczowe Insight'y
+## 🔍 Key Insights
 
-| Obszar | Najważniejsze Odkrycia |
-|--------|------------------------|
-| 🏷️ **Polityka Rabatowa** | Masowe rabatowanie = trwała strata: marża od **-3% do -8.86%** (w zależności od metody agregacji). |
-| 🛒 **Asortyment** | Technologia = najwyższa marża, ale pojedyncze SKU generują **krytyczne straty** (np. Cisco TelePresence EX90). |
-| 👥 **LTV i Segmentacja Klienta** | Najwyższą wartość per klient generuje segment **Home Office** → rekomendacja: targetowane kampanie. |
-| 📅 **Sezonowość** | Sprzedaż **wystrzela w Q4 (listopad/grudzień)** → potrzeba lepszego zarządzania stockiem. |
-| 🌍 **Optymalizacja Regionów** | Region Centralny = wysoka sprzedaż, **niska rentowność** → rekomendacja audytu kosztów operacyjnych. |
+| Area | Key Findings |
+|------|--------------|
+| 🏷️ **Discount Policy** | Mass-discount strategy leads to a negative aggregated margin: **-3% to -8.86%**, depending on calculation method. |
+| 🛒 **Product Mix** | Technology category generates the highest margins, yet certain SKUs create **critical losses** (e.g., Cisco TelePresence EX90). |
+| 👥 **Customer Segmentation (LTV)** | The **Home Office** segment shows the highest value per customer → requires targeted marketing. |
+| 📅 **Seasonality** | Sales peak strongly in **Q4 (Nov–Dec)** → inventory planning should be adapted accordingly. |
+| 🌍 **Regional Performance** | Central Region: high sales volume but low profitability → operational cost audit recommended. |
 
 ---
 
@@ -38,58 +39,58 @@ od czyszczenia danych → przez SQL → aż po dashboard i rekomendacje biznesow
 
 ---
 
-## 📁 Struktura Repozytorium
+## 📁 Repository Structure
 
 📂 Superstore-Analysis
 │
-├── 📄 raport_portfolio_superstore.md # Pełny raport analityczny
-├── 📊 superstore_database_cleaned.csv # (opcjonalnie) oczyszczony dataset
-└── 🖼️ PowerBI_Dashboard_Screenshots/ # Zrzuty ekranu dashboardów
+├── 📄 report_superstore_portfolio.md # Full analytical report (cleaning log, SQL queries, insights, recommendations)
+├── 📊 superstore_database_cleaned.csv # (optional) cleaned dataset
+└── 🖼️ PowerBI_Dashboard_Screenshots/ # Dashboard screenshots
 
 yaml
 Skopiuj kod
 
 ---
 
-## 🖼️ Podgląd Dashboardów (Power BI)
+## 🖼️ Dashboard Preview (Power BI)
 
 ✅ Sales & Profit Overview  
 ✅ Discount Impact Analysis  
 ✅ Seasonal Trends  
 ✅ Customer Segmentation & LTV  
 
-> Zrzuty ekranu znajdują się w folderze: `PowerBI_Dashboard_Screenshots/`
+> Screenshots available in: `PowerBI_Dashboard_Screenshots/`
 
 ---
 
-## 🚀 Możliwe Kierunki Rozszerzenia
+## 🚀 Possible Extensions
 
-- 🔁 Automatyzacja pipeline'u (Python / SQL Server / dbt)  
-- 📈 Dodanie prognoz (ARIMA / Prophet)  
-- ⚙️ Integracja z API sprzedaży e-commerce  
-- 🧠 Segmentacja klientów ML-owo (RFM / clustering)
+- 🔁 Build automated ETL pipeline (Python / SQL Server / dbt)  
+- 📈 Add forecasting model (ARIMA / Prophet)  
+- ⚙️ Connect to live e-commerce API  
+- 🧠 Customer segmentation using ML (RFM, clustering)
 
 ---
 
-## 👤 Autor
+## 👤 Author
 
 [![GitHub](https://img.shields.io/badge/GitHub-rubiny2-181717?style=for-the-badge&logo=github)](https://github.com/rubiny2)  
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-ARubaj-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/arubaj/)
 
-📌 **Rola:** Data Analyst / BI Specialist  
-📍 **Nick:** `rubiny2`
+📌 **Role:** Data Analyst / BI Specialist  
+📍 **Username:** `rubiny2`
 
 ---
 
-## ⚖️ Licencja
+## ⚖️ License
 
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-Projekt dostępny na licencji **MIT** – możesz korzystać, kopiować i forkować repozytorium z podaniem autora.
+Released under the **MIT License** — free to use, modify, and share with attribution.
 
 ---
 
-## ⭐ Wsparcie
+## ⭐ Support
 
-Jeśli projekt Ci się podoba lub pomógł Ci w nauce/portfolio → zostaw ⭐  
-To pomaga mi rozwijać kolejne publiczne case study 🔥
+If you find this project useful or inspiring, feel free to leave a ⭐  
+It helps me create more public analytical case studies 🔥
